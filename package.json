@@ -1,0 +1,21 @@
+{
+  "name": "social-buttons-bootstrap",
+  "version": "0.0.1",
+  "description": "social buttons for bootstrap",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "social",
+    "buttons"
+  ],
+  "author": "Monika Jandrevska",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1"
+  }
+}

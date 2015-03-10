@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/github.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.css">
+</head>
+<body>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default btn-sm">
+			<span class="fa fa-facebook" aria-hidden="true"></span>
+		</button>
+		<button class="btn btn-default btn-sm fb-counter" data-url="https://www.facebook.com/GlobalGameJamMacedonia">
+			12345
+		</button>
+	</div>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="js/facebook.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			getFbLikes($('.fb-counter'));
+		});
+
+	</script>
+</body>
+</html>
