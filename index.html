@@ -12,16 +12,28 @@
 			<span class="fa fa-facebook" aria-hidden="true"></span>
 		</button>
 		<button class="btn btn-default btn-sm fb-counter" data-url="https://www.facebook.com/GlobalGameJamMacedonia">
+		</button>
+
+		<br />
+
+		<button type="button" class="btn btn-default btn-sm">
+			<span class="fa fa-twitter" aria-hidden="true"></span>
+		</button>
+		<button class="btn btn-default btn-sm twitter-counter" data-url="https://www.facebook.com/GlobalGameJamMacedonia">
 			12345
 		</button>
 	</div>
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="js/facebook.js"></script>
+	<script type="text/javascript" src="js/twitter.js"></script>
 	<script type="text/javascript">
 		$(function(){
 			getFbLikes($('.fb-counter'));
 		});
 
+		$(function(){
+			getTweets($('.twitter-counter'));
+		});
 	</script>
 </body>
 </html>
