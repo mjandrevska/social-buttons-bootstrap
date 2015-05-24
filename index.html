@@ -22,10 +22,21 @@
 		<button class="btn btn-default btn-sm twitter-counter" data-url="https://www.facebook.com/GlobalGameJamMacedonia">
 			12345
 		</button>
+
+		<br />
+
+		<button type="button" class="btn btn-default btn-sm">
+			<span class="fa fa-pinterest" aria-hidden="true"></span>
+		</button>
+		<button class="btn btn-default btn-sm pinterest-counter" data-url="http://www.crnobelo.com/zivot/patuvanje/30888-najubavte-skrieni-ulici-vo-pariz-niz-koi-vredi-da-se-proseta">
+			12345
+		</button>
 	</div>
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="js/facebook.js"></script>
 	<script type="text/javascript" src="js/twitter.js"></script>
+	<script type="text/javascript" src="js/pinterest.js"></script>
+
 	<script type="text/javascript">
 		$(function(){
 			getFbLikes($('.fb-counter'));
@@ -34,6 +45,10 @@
 		$(function(){
 			getTweets($('.twitter-counter'));
 		});
+
+		$(function(){
+			getPins($('.pinterest-counter'));
+		});		
 	</script>
 </body>
 </html>
